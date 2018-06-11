@@ -68,6 +68,12 @@ class ViewController: UIViewController {
         print(UIScreen.main.bounds.width - 80)
         commentViewHeight.constant = 50
         initialConfigure()
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        view.addGestureRecognizer(tap)
+    }
+
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
 
     private func hideViews(_ isHidden: Bool) {
@@ -75,7 +81,7 @@ class ViewController: UIViewController {
         bottomStackView.isHidden = isHidden
         commentViewHeight.constant = isHidden ? 45 : 100
     }
-
+    
     private func registerForKeyboardNotifications() {
         keyboardShowToken = NotificationCenter.default.addObserver(descriptor: SystemNotification.keyboardShowNotification) { keyboardPayload in
 
