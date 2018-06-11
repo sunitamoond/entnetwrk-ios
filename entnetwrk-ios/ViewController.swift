@@ -58,13 +58,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         title = "Post Detail"
-        navigationController?.navigationBar.barTintColor = UIColor.darkText
+        navigationController?.navigationBar.barTintColor = .darkGray
         navigationController?.navigationBar.tintColor = UIColor.white
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
         navigationController?.navigationBar.isTranslucent = false
         navigationController?.navigationBar.shadowImage = UIImage()
         registerForKeyboardNotifications()
-        commentViewHeight.constant = UIScreen.main.bounds.width - 85
+        textViewWidth.constant = UIScreen.main.bounds.width - 80
+        print(UIScreen.main.bounds.width - 80)
+        commentViewHeight.constant = 50
         initialConfigure()
     }
 
