@@ -19,6 +19,7 @@
 		41FC0B0520CE6DBF006CECF2 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FC0B0320CE6DBF006CECF2 /* PostTableViewCell.xib */; };
 		41FC0B0820CE747A006CECF2 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC0B0620CE747A006CECF2 /* HeaderTableViewCell.swift */; };
 		41FC0B0920CE747A006CECF2 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FC0B0720CE747A006CECF2 /* HeaderTableViewCell.xib */; };
+		41FC0B0B20CE90F4006CECF2 /* Keyboard+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC0B0A20CE90F4006CECF2 /* Keyboard+Notification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		41FC0B0320CE6DBF006CECF2 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		41FC0B0620CE747A006CECF2 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
 		41FC0B0720CE747A006CECF2 /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
+		41FC0B0A20CE90F4006CECF2 /* Keyboard+Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keyboard+Notification.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				41FC0B0320CE6DBF006CECF2 /* PostTableViewCell.xib */,
 				41FC0B0620CE747A006CECF2 /* HeaderTableViewCell.swift */,
 				41FC0B0720CE747A006CECF2 /* HeaderTableViewCell.xib */,
+				41FC0B0A20CE90F4006CECF2 /* Keyboard+Notification.swift */,
 			);
 			path = "entnetwrk-ios";
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				41D744FC20CE3D8600395B4D /* ViewController.swift in Sources */,
 				41D7450D20CE4B6500395B4D /* CommentTableViewCell.swift in Sources */,
 				41FC0B0420CE6DBF006CECF2 /* PostTableViewCell.swift in Sources */,
+				41FC0B0B20CE90F4006CECF2 /* Keyboard+Notification.swift in Sources */,
 				41D744FA20CE3D8600395B4D /* AppDelegate.swift in Sources */,
 				41FC0B0820CE747A006CECF2 /* HeaderTableViewCell.swift in Sources */,
 				41D7451020CE4DC400395B4D /* Comment.swift in Sources */,
