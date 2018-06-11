@@ -57,7 +57,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "Post Detail"
+        title = "Post"
         navigationController?.navigationBar.barTintColor = .darkGray
         navigationController?.navigationBar.tintColor = UIColor.white
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
@@ -75,7 +75,6 @@ class ViewController: UIViewController {
         bottomStackView.isHidden = isHidden
         commentViewHeight.constant = isHidden ? 45 : 100
     }
-
 
     private func registerForKeyboardNotifications() {
         keyboardShowToken = NotificationCenter.default.addObserver(descriptor: SystemNotification.keyboardShowNotification) { keyboardPayload in
@@ -158,7 +157,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         default:
             let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: CommentTableViewCell.self), for: indexPath) as! CommentTableViewCell
             cell.configureComment(with: comments[indexPath.row - 2])
-
+            
             return cell
         }
     }

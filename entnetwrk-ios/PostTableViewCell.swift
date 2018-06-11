@@ -35,6 +35,6 @@ class PostTableViewCell: UITableViewCell {
     }
 
     func configure() {
-
+        //TODO: set field later
     }
 }
