@@ -12,6 +12,13 @@
 		41D744FF20CE3D8600395B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D744FD20CE3D8600395B4D /* Main.storyboard */; };
 		41D7450120CE3D8600395B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D7450020CE3D8600395B4D /* Assets.xcassets */; };
 		41D7450420CE3D8600395B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D7450220CE3D8600395B4D /* LaunchScreen.storyboard */; };
+		41D7450D20CE4B6500395B4D /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D7450B20CE4B6500395B4D /* CommentTableViewCell.swift */; };
+		41D7450E20CE4B6500395B4D /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41D7450C20CE4B6500395B4D /* CommentTableViewCell.xib */; };
+		41D7451020CE4DC400395B4D /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D7450F20CE4DC400395B4D /* Comment.swift */; };
+		41FC0B0420CE6DBF006CECF2 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC0B0220CE6DBF006CECF2 /* PostTableViewCell.swift */; };
+		41FC0B0520CE6DBF006CECF2 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FC0B0320CE6DBF006CECF2 /* PostTableViewCell.xib */; };
+		41FC0B0820CE747A006CECF2 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC0B0620CE747A006CECF2 /* HeaderTableViewCell.swift */; };
+		41FC0B0920CE747A006CECF2 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FC0B0720CE747A006CECF2 /* HeaderTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		41D7450020CE3D8600395B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41D7450320CE3D8600395B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41D7450520CE3D8600395B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D7450B20CE4B6500395B4D /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		41D7450C20CE4B6500395B4D /* CommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
+		41D7450F20CE4DC400395B4D /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		41FC0B0220CE6DBF006CECF2 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		41FC0B0320CE6DBF006CECF2 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		41FC0B0620CE747A006CECF2 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		41FC0B0720CE747A006CECF2 /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 				41D7450020CE3D8600395B4D /* Assets.xcassets */,
 				41D7450220CE3D8600395B4D /* LaunchScreen.storyboard */,
 				41D7450520CE3D8600395B4D /* Info.plist */,
+				41D7450B20CE4B6500395B4D /* CommentTableViewCell.swift */,
+				41D7450C20CE4B6500395B4D /* CommentTableViewCell.xib */,
+				41D7450F20CE4DC400395B4D /* Comment.swift */,
+				41FC0B0220CE6DBF006CECF2 /* PostTableViewCell.swift */,
+				41FC0B0320CE6DBF006CECF2 /* PostTableViewCell.xib */,
+				41FC0B0620CE747A006CECF2 /* HeaderTableViewCell.swift */,
+				41FC0B0720CE747A006CECF2 /* HeaderTableViewCell.xib */,
 			);
 			path = "entnetwrk-ios";
 			sourceTree = "<group>";
@@ -124,8 +145,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D7450420CE3D8600395B4D /* LaunchScreen.storyboard in Resources */,
+				41FC0B0520CE6DBF006CECF2 /* PostTableViewCell.xib in Resources */,
 				41D7450120CE3D8600395B4D /* Assets.xcassets in Resources */,
 				41D744FF20CE3D8600395B4D /* Main.storyboard in Resources */,
+				41FC0B0920CE747A006CECF2 /* HeaderTableViewCell.xib in Resources */,
+				41D7450E20CE4B6500395B4D /* CommentTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D744FC20CE3D8600395B4D /* ViewController.swift in Sources */,
+				41D7450D20CE4B6500395B4D /* CommentTableViewCell.swift in Sources */,
+				41FC0B0420CE6DBF006CECF2 /* PostTableViewCell.swift in Sources */,
 				41D744FA20CE3D8600395B4D /* AppDelegate.swift in Sources */,
+				41FC0B0820CE747A006CECF2 /* HeaderTableViewCell.swift in Sources */,
+				41D7451020CE4DC400395B4D /* Comment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
